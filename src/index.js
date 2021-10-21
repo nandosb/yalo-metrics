@@ -2,8 +2,8 @@ const metrics = require('datadog-metrics')
 const os = require("os")
 const packagejsonFinder = require('find-package-json')
 
-module.exports = function YaloMetrics () {
-    const _finder = packagejsonFinder(__dirname)
+module.exports = () => {
+    const _finder = packagejsonFinder()
     const _packagejson = _finder.next().value
 
     console.log("package.json", _packagejson)
