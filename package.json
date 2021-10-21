@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "description": "Metric reporter tools",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nandosb/yalo-metrics"
+    },
     "main": "src/index.js",
     "keywords": [
         "metrics",
