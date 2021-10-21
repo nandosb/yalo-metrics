@@ -1,0 +1,24 @@
+{
+    "name": "yalo-metrics",
+    "version": "1.0.0",
+    "description": "Metric reporter tools",
+    "license": "MIT",
+    "main": "src/index.js",
+    "keywords": [
+        "metrics",
+        "datadog"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "author": "Fernando Serrano",
+    "dependencies": {
+        "datadog-metrics": "^0.9.3",
+        "find-package-json": "^1.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
+}
