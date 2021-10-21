@@ -5,8 +5,6 @@ const packagejsonFinder = require('find-package-json')
 const _finder = packagejsonFinder()
 const _packagejson = _finder.next().value
 
-console.log("package.json", _packagejson)
-
 const _dd_api_key = process.env.DATADOG_API_KEY || ''
 
 const init = () => {
