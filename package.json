@@ -1,6 +1,6 @@
 {
     "name": "yalo-metrics",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "Metric reporter tools",
     "license": "MIT",
     "repository": {
