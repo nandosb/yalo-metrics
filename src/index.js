@@ -5,7 +5,7 @@ const packagejsonFinder = require('find-package-json')
 const _finder = packagejsonFinder()
 const _packagejson = _finder.next().value
 
-const _ddApiKey = process.env.DATADOG_API_KEY || ''
+const _ddApiKey = process.env.DATADOG_API_KEY || process.env.DD_API_KEY || ''
 
 /**
 * Build common properties for all metrics
