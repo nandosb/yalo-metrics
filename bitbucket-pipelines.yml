@@ -8,6 +8,7 @@ definitions:
           - node
         script:
           - export NODE_ENV=ci
+          - npm install
           - npm run lint
 pipelines:
   default:
