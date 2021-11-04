@@ -1,0 +1,14 @@
+image: node:14.17.0
+definitions:
+  steps:
+    - step: &lint
+        name: 'Lint code'
+        image: node:14.17.0
+        caches:
+          - node
+        script:
+          - export NODE_ENV=ci
+          - npm run lint
+pipelines:
+  default:
+    - step: *lint
