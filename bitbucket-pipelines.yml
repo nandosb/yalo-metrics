@@ -13,3 +13,6 @@ definitions:
 pipelines:
   default:
     - step: *lint
+  pull-requests:
+    '**': #this runs as default for any branch not elsewhere defined
+      - step: *lint
