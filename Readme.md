@@ -38,7 +38,7 @@ Used to count events (ie: requests, queries to a databases, calls to other servi
 
 #### Usage
 
-> yaloMetrics.counter('your_metric_name_goes_here')
+> yaloMetrics.counter('your_metric_name_goes_here', [increment], [tags])
 
 
 ### Gauges
@@ -47,7 +47,7 @@ Used to keep track of measures (ie: CPU usage, Memory, Network used bandwith, et
 
 #### Usage
 
-> yaloMetrics.histogram('your_metric_name_goes_here', value)
+> yaloMetrics.histogram('your_metric_name_goes_here', value, [tags])
 
 ### Histograms
 
@@ -55,4 +55,4 @@ Used to keep track of measures (ie: CPU usage, Memory, Network used bandwith, et
 
 #### Usage
 
-> yaloMetrics.gauge('your_metric_name_goes_here', value)
+> yaloMetrics.gauge('your_metric_name_goes_here', value, [tags])
