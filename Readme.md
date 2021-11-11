@@ -7,7 +7,10 @@ This project intents to wrap datadog-metrics in such a way it creates a uniform 
 ## Installation
 
 In your `package.json` file
-> "yalo-metrics": "git+ssh://bitbucket.org:yalochat/yalometrics-js.git"
+
+```
+"@engyalo/yalo-metrics": "^1.1.5"
+```
 
 Configure the following environment variables:
 - NODE_ENV (or ENV)
