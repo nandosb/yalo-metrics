@@ -1,11 +1,11 @@
 {
-    "name": "yalo-metrics",
-    "version": "1.1.4",
-    "description": "Metric reporter tools",
+    "name": "@engyalo/yalo-metrics",
+    "version": "1.1.6",
+    "description": "App metrics reporter tools",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nandosb/yalo-metrics"
+        "url": "https://bitbucket.org/yalochat/yalometrics-js/"
     },
     "main": "src/index.js",
     "keywords": [
